@@ -33,6 +33,7 @@ function clg(value) {
   console.log(value);
 }
 
+console.clear();
 
 //intro string
 clg(`Hi! My name's ${chalk.bold.cyanBright("Shobhit")}\n\nWelcome to this \"${chalk.yellowBright.underline("DO YOU KNOW ME?")}\" quiz`);
